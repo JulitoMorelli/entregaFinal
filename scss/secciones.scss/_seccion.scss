@@ -3,6 +3,23 @@
     width: 100%;
 
 }
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-bottom: 3px solid black;
+
+}
+
+.navbar-brand a {
+    border: none;
+}
+
+
+.navbar li {
+    padding: 5px;
+}
 .collapse {
     display: flex;
     justify-content: flex-end;
