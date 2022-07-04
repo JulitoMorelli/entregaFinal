@@ -326,6 +326,17 @@ svg:hover {
   margin-top: 15px;
   color: black; }
 
+.card-title {
+  font-weight: bold;
+  text-align: center; }
+
+.card-text {
+  font-family: sans-serif;
+  text-align: center; }
+
+.btn:hover {
+  transform: scale(1.1); }
+
 .footer {
   background-color: rgba(0, 51, 145, 0.95);
   text-align: center;

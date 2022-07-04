@@ -137,6 +137,7 @@ a {
 .img2 {
     border: 4px solid $tituloGrande;
     margin: 15px;
+
     
 }
 
@@ -339,4 +340,18 @@ svg:hover {
     @include fontStyle($footerText, $colorSecundario);
   
   }
+  
+.card-title {
+    font-weight: bold;
+    text-align: center;
 
+}
+.card-text {
+    font-family: $typeTwo;
+   text-align: center;
+   
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
