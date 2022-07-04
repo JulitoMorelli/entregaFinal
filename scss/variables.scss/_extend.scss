@@ -1,0 +1,27 @@
+%estiloParrafo {
+    font-size: 20px;
+    font-family: $typeOne;
+    text-align: center;
+    margin: 20px;
+    color: $tituloGrande;
+    background-color: $colorSecundario;
+}
+
+%estiloTitulo {
+    font-size: 30px;
+    color: $tituloGrande;
+    font-weight: bold;
+    text-align: center;
+}
+
+@mixin fontStyle ($footerText, $colorSecundario) {
+    font-size: 20px;
+    padding-top: 35px;
+    font-family: $typeOne;
+    text-align: center;
+    list-style: none;
+    margin-top: 15px;
+    color: $tituloGrande;
+    
+   
+}
