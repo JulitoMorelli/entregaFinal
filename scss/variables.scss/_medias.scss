@@ -1,0 +1,38 @@
+@media (max-width:568px) {
+    .imagenes-idolos {
+        display: none;
+        box-sizing: content-box;
+
+    }
+}
+
+
+@media (min-width: 550px) {
+    .imagenes-idolos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .img2 {
+            height: 300px;
+            width: 350px;
+            border: 4px solid white;
+            
+    }
+    
+    
+    }
+    
+  
+}
+
+@media (max-width:550px) {
+    .img2 {
+        height: 200px;
+        width: 300px;
+        border: 4px solid rgb(255, 255, 255);
+    
+    }
+    .container {
+        background-color: rgb(255, 217, 0);
+    }
+   }
