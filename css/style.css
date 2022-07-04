@@ -24,3 +24,330 @@
     border: 4px solid white; }
   .container {
     background-color: #ffd900; } }
+
+.pSocios {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  margin: 20px;
+  color: black;
+  background-color: #cd8500; }
+
+.extend {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center; }
+
+header {
+  font-size: 20px;
+  width: 100%;
+  background-color: rgba(0, 51, 145, 0.95); }
+
+header li {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 35px; }
+
+header li:hover {
+  transform: scale(1.2);
+  border-bottom: 5px solid orange; }
+
+header .navimg {
+  width: 100px;
+  height: 100px; }
+
+header svg:hover {
+  transform: scale(1.3);
+  transition: 5s;
+  transform: rotateY(360deg); }
+
+.navimg {
+  width: 100px;
+  height: 100px; }
+
+.logo {
+  width: 50px;
+  height: 50px; }
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent; }
+
+.container-fluid {
+  display: flex;
+  width: 100%; }
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  border-bottom: 3px solid black; }
+
+.navbar-brand a {
+  border: none; }
+
+.navbar li {
+  padding: 5px; }
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px; }
+
+.section {
+  background-color: white;
+  max-width: 100%;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder; }
+
+.div-titulo {
+  font-size: 30px;
+  color: #494949;
+  margin: 10px;
+  font-weight: bold; }
+
+.div-parrafo {
+  color: black;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px; }
+
+a {
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  border-radius: 150px;
+  padding: 10px;
+  text-decoration: none; }
+
+@keyframes color {
+  0% {
+    background-color: white; }
+  50% {
+    background-color: #ffe100; }
+  100% {
+    background-color: blue; } }
+
+.section {
+  background: #7578cc;
+  background: linear-gradient(0deg, #7578cc 100%, #fafaff 100%);
+  max-width: 100%;
+  font-size: 1.2rem;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.titulo-idolo {
+  font-size: 30px;
+  color: black;
+  margin: 10px;
+  font-weight: bold;
+  animation-duration: 1seg;
+  text-align: center; }
+
+.titulo-idolo:hover {
+  background-color: black;
+  color: white; }
+
+.parrafo-idolo {
+  color: black;
+  font-family: monospace;
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+  height: auto; }
+
+.imagenes-idolos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.a-wiki {
+  color: #003cff;
+  margin-bottom: 2px; }
+
+.a-wiki:hover {
+  background-color: black;
+  color: white; }
+
+.img2 {
+  border: 4px solid black;
+  margin: 15px; }
+
+.formBos {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 25px;
+  margin-bottom: 35px; }
+
+.mainSocios p {
+  text-align: center;
+  font-size: 20px; }
+
+.mainTitulos {
+  background-image: url(https://w0.peakpx.com/wallpaper/564/825/HD-wallpaper-boca-juniors-2-futbol-argentina-bocajuniors-boca-juniors.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-color: beige;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid black; }
+
+.h3titulos {
+  font-size: 33px;
+  color: #cd8500;
+  display: flex;
+  justify-content: auto; }
+
+.mainTitulos ul li {
+  font-size: 17px;
+  color: white;
+  margin: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: stretch;
+  font-weight: bold;
+  opacity: 0.8; }
+
+h4:hover {
+  background-color: black; }
+
+a:hover {
+  cursor: pointer; }
+
+p {
+  animation-duration: 1s;
+  animation-name: entrada;
+  padding: 5px; }
+
+@keyframes entrada {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    opacity: 1; }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    opacity: 0.5; } }
+
+.boquita {
+  display: flex;
+  flex: row;
+  justify-content: center; }
+
+.boquita2 {
+  width: 100%;
+  height: auto;
+  margin: 30px; }
+
+.accordion-collapse {
+  animation-name: entrada;
+  animation-duration: 1s;
+  margin-top: 20px; }
+
+.accordion {
+  padding: 30px;
+  border: 2px solid #949494;
+  font-size: 15px; }
+
+img {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: 0; }
+
+.accordion-body {
+  background-color: beige;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.boquita2:hover {
+  filter: blur(2px);
+  filter: grayscale(60%); }
+
+.carousel {
+  width: 100%;
+  height: 800px;
+  margin: 0; }
+
+.carousel-item {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.d-block {
+  width: 400px;
+  height: 600px; }
+
+.img2:hover {
+  transform: scale(1.1);
+  transition: 1.4s;
+  transition-delay: 1.5s; }
+
+svg:hover {
+  transform: scale(1.3);
+  transition: 5s;
+  transform: rotateY(360deg); }
+
+.d-block:hover {
+  transition: 2s;
+  transition-delay: 2s;
+  transform: rotateY(360deg); }
+
+.accordion-button {
+  font-size: 17px;
+  color: black;
+  font-weight: bold; }
+
+.mainSocios ol li {
+  font-size: 20px;
+  padding-top: 35px;
+  font-family: monospace;
+  text-align: center;
+  list-style: none;
+  margin-top: 15px;
+  color: black; }
+
+.footer {
+  background-color: rgba(0, 51, 145, 0.95);
+  text-align: center;
+  border-top: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  max-width: auto; }
+
+.footer ul li {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  font-size: 25px; }
+
+.footer h4 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  color: white;
+  font-size: 35px;
+  margin-left: 5px;
+  font-family: monospace; }
