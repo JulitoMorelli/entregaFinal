@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgba(0, 51, 145, .95);
+    background-color: rgba(255, 217, 1, 0.964);
     text-align: center;
     border-top: 5px solid black;
     display: flex;
@@ -8,21 +8,34 @@
     text-align: center;
     height: auto;
     max-width: auto;
-}
 
-.footer ul li {
-    display: inline-block;
-    margin: 15px;
-    padding: 15px;
-    font-size: 25px;
+    ul li {
+        display: inline-block;
+        margin: 15px;
+        padding: 15px;
+        font-size: 25px;
 
-}
-.footer h4 {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    color: white;
-    font-size: 35px;
-    margin-left: 5px;
-    font-family: $typeOne;
     }
+
+    h4 {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        color: #002b80;
+        font-size: 35px;
+        margin-left: 5px;
+        font-family: $typeOne;
+
+    }
+
+    a {
+        height: 50px;
+        width: 50px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 70px;
+        color: rgba(0, 51, 145, .95);
+    }
+}

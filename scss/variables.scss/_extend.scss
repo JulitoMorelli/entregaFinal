@@ -5,6 +5,10 @@
     margin: 20px;
     color: $tituloGrande;
     background-color: $colorSecundario;
+    animation-duration: 1s;
+    animation-name: entrada;
+    padding: 5px;
+    
 }
 
 %estiloTitulo {

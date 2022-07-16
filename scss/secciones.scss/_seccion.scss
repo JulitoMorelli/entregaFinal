@@ -3,6 +3,7 @@
     width: 100%;
 
 }
+
 .navbar {
     width: 100%;
     display: flex;
@@ -20,10 +21,23 @@
 .navbar li {
     padding: 5px;
 }
+
 .collapse {
     display: flex;
     justify-content: flex-end;
     margin: 20px;
+
+}
+.boquita {
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.boquita2 {
+    width: 100%;
+    height: auto;
+    margin: 30px;
 
 }
 
@@ -42,7 +56,7 @@
     font-size: 30px;
     color: rgb(73, 73, 73);
     margin: 10px;
-    
+
     font-weight: bold;
 }
 
@@ -56,6 +70,7 @@
     margin: 5px;
     padding: 5px;
 }
+
 a {
     color: $footerText;
     font-size: 20px;
@@ -82,8 +97,8 @@ a {
 }
 
 .section {
-    background: rgb(117,120,204);
-    background: linear-gradient(0deg, rgba(117,120,204,1) 100%, rgba(250,250,255,1) 100%);
+    background: rgb(117, 120, 204);
+    background: linear-gradient(0deg, rgba(117, 120, 204, 1) 100%, rgba(250, 250, 255, 1) 100%);
     max-width: 100%;
     font-size: 1.2rem;
     font-family: $typeOne;
@@ -138,8 +153,9 @@ a {
     border: 4px solid $tituloGrande;
     margin: 15px;
 
-    
+
 }
+
 
 
 .formBos {
@@ -152,11 +168,29 @@ a {
     border: 2px solid $tituloGrande;
     padding: 25px;
     margin-bottom: 35px;
+
+    label {
+        color: rgb(0, 22, 131);
+        font-weight: bold;
+    }
+
+    .form-text {
+        font-style: $typeOne;
+        color: $colorSecundario;
+    }
 }
 
+.extend {
+    @extend %estiloTitulo;
+}
 
 .pSocios {
-   @extend %estiloParrafo
+    @extend %estiloParrafo
+}
+
+.mainSocios ol li {
+    @include fontStyle($footerText, $colorSecundario);
+
 }
 
 
@@ -166,51 +200,109 @@ a {
 }
 
 
-.mainTitulos {
-   background-image: url(https://w0.peakpx.com/wallpaper/564/825/HD-wallpaper-boca-juniors-2-futbol-argentina-bocajuniors-boca-juniors.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 50%;
-    background-color: $colorFondo;
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid black;
+.titulos-a {
+    color: rgb(0, 11, 97);
+    font-size: 15px;
 
-}
-
-.h3titulos {
-    font-size: 33px;
-    color: $colorSecundario;
-    display: flex;
-    justify-content: auto;
-}
-.mainTitulos ul li {
-    font-size: 17px;
-    color: $footerText;
-    margin: 18px;
-    list-style: none;
-    display: flex;
-    justify-content: stretch;
-    font-weight: bold;
-    opacity: 0.8;
 }
 
 h4:hover {
     background-color: $tituloGrande;
 }
+
 a:hover {
-    
+
     cursor: pointer;
 }
 
 
 
-p {
-    animation-duration: 1s;
+.accordion-collapse {
     animation-name: entrada;
-    padding: 5px;
-    
+    animation-duration: 1s;
+    margin-top: 20px;
 }
+
+.accordion {
+    padding: 30px;
+    font-size: 15px;
+}
+
+
+.accordion-body {
+    background-color: $colorFondo;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+.boquita2:hover {
+    filter: blur(2px);
+
+    filter: grayscale(60%);
+}
+
+img {
+    width: 370px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+    transition: 1.4s;
+    transition-delay: 1.5s;
+
+
+}
+
+.accordion-button {
+    font-size: 17px;
+    color: $tituloGrande;
+    font-weight: bold;
+
+}
+
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.card-text {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+
+}
+
+.btn:hover {
+
+    background-color: yellow;
+    color: blue;
+
+}
+
+.btn {
+    background-color: rgb(0, 47, 255);
+    font-family: sans-serif;
+    color: rgb(255, 225, 0);
+    font-weight: bold;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid orange;
+
+}
+
+
 
 @keyframes entrada {
     from {
@@ -225,133 +317,4 @@ p {
         opacity: 0.5;
 
     }
-}
-
-.boquita {
-    display: flex;
-    flex: row;
-    justify-content: center;
-}
-
-
-.boquita2 {
-    width: 100%;
-    height: auto;
-    margin: 30px;
-
-}
-
-.accordion-collapse {
-    animation-name: entrada;
-    animation-duration: 1s;
-    margin-top: 20px;
-}
-
-
-.accordion {
-    padding: 30px;
-    border: 2px solid rgb(148, 148, 148);
-    font-size: 15px;
-
-
-}
-
-img {
-    width: 350px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-
-
-.accordion-body {
-    background-color: $colorFondo;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.boquita2:hover {
-    filter: blur(2px);
-
-    filter: grayscale(60%);
-}
-
-
-.carousel {
-    width: 100%;
-    height: 800px;
-    margin: 0;
-
-}
-
-.carousel-item {
-    width: 100%;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-
-}
-
-.d-block {
-    width: 400px;
-    height: 600px;
-    
-}
-
-
-.img2:hover {
-    transform: scale(1.1);
-    transition: 1.4s;
-    transition-delay: 1.5s;
-
-
-}
-
-svg:hover {
-    transform: scale(1.3);
-    transition: 5s;
-    transform: rotateY(360deg);
-   
-}
-
-
-.d-block:hover {
-    transition: 2s;
-    transition-delay: 2s;
-    transform: rotateY(360deg);
-}
-
-.accordion-button {
-    font-size: 17px;
-    color: $tituloGrande;
-    font-weight: bold;
-
-}
-
-.extend {
-    @extend %estiloTitulo;
-}
-
-
-.mainSocios ol li {
-    @include fontStyle($footerText, $colorSecundario);
-  
-  }
-  
-.card-title {
-    font-weight: bold;
-    text-align: center;
-
-}
-.card-text {
-    font-family: $typeTwo;
-   text-align: center;
-   
-}
-
-.btn:hover {
-    transform: scale(1.1);
 }
