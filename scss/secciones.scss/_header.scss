@@ -1,7 +1,7 @@
 header {
     font-size: 20px;
     width: 100%;
-    
+
     background-color: rgba(0, 51, 145, 0.95);
 
     .navbar-nav .nav-link.active,
@@ -27,9 +27,7 @@ header {
 }
 
 header li:hover {
-    transform: scale(1.1);
-    border-bottom: 5px solid orange;
-
+    border-bottom: 2px solid orange;
 }
 
 header .navimg {
